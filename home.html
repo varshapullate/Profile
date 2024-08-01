@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="clip-box">
+        <nav>
+            <div class="logo" style="cursor: pointer;">
+                <a href="#home" style="text-decoration: none; color: white;">Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="home" id="home">
+        <h1 class="info">
+            Hi, <br> I'm <span class="name">Varsha</span><br> Web Designer
+        </h1>
+        <div><a href="#" class="resume">Resume</a></div>
+    </section>
+
+    <section class="page2" id="about">
+        <h2 class="about">About <span style="color: rgb(44, 104, 148);">Me</span></h2>
+        <div class="about-container">
+            <div class="about-img"><img src="about.jpg" alt="About Me"></div>
+            <div class="info">
+                <h3>I'm Varsha</h3>
+                <p>I am an Engineering undergraduate, possessing exceptional analytical abilities and a strong dedication to continuous learning. Presently, I am delving into the world of web development.</p>
+                <a href="tel:+1234567890" style="color: rgb(143, 122, 195);"><i class="fas fa-phone-alt"></i></a>
+                <a href="mailto:varshapullate@example.com" style="color:grey"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/yourprofile" style="color:rgb(58, 110, 201)"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;">90%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;">80%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 75%;">75%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>Python</h3>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;">70%</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Works" id="works">
+        <h2>Works</h2>
+        <div class="container">
+            <div class="project">
+                <h3>Portfolio</h3>
+                <p class="info">Created a personal portfolio website using HTML, CSS, and JavaScript to showcase projects, skills, and resume. Implemented responsive design for optimal viewing on various devices, and integrated interactive elements to enhance user engagement and navigation.</p><br>
+                <div class="link"><a href="https://github.com/varshapullate/Profile">View</a></div>
+            </div>
+            <div class="project">
+                <h3>Music-World</h3>
+                <p class="info">Developed a static music world website featuring movie songs using HTML, CSS, and JavaScript. Designed a user-friendly interface with organized playlists, enhancing the browsing experience for users. Implemented responsive design to ensure accessibility across various devices.</p>
+                <div class="link"><a href="https://github.com/varshapullate/Music_World">View</a></div>
+            </div>
+            <div class="project">
+                <h3>Job-portal</h3>
+                <p class="info">Developed a static job portal using HTML, CSS, and JavaScript, with a MongoDB backend for user login, enhancing user experience and secure authentication.</p><br><br><br>
+                <div class="link"><a href="https://ibm-eygj.onrender.com/">View</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading" style="color:rgb(193, 127, 202)">Contact<span>ME!</span></h2>
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email Address" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                <input type="text" name="Email Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="Your Message" cols="30" rows="10" placeholder="Your Message" style="font-family: Arial, sans-serif"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-iconss">
+                <a href="#" class="social-iconsss"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-iconsss"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-iconsss"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-iconsss"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-iconsss"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-iconsss"><i class="fab fa-google"></i></a>
+                <a href="#" class="social-iconsss"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>Portfolio</p>
+                <p>&copy; 2024 Connect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
